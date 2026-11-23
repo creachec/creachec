@@ -2,6 +2,8 @@
 
 O Friendo surgiu para reunir um grupo de amigos em salas de texto e voz. Dá para entrar numa chamada, transmitir um jogo e assistir à tela de outra pessoa na mesma sala. Cada pessoa também pode personalizar o avatar e o perfil.
 
+[Conheça o Friendo Voice](https://friendo.137-131-179-91.sslip.io/) · [Assista ao vídeo principal](https://friendo.137-131-179-91.sslip.io/desktop2/video/principal-1080p.mp4)
+
 ## Como é feito
 
 - **Cliente web.** TypeScript para chat, canais, chamadas, perfis e personalização.
