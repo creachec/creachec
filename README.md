@@ -1,80 +1,102 @@
-![BINHOC · @creachec · Software e audiovisual](assets/binhoc.png)
+<div align="center">
 
-Sou o Binhoc, editor de vídeo e “programador” vibecoder. **Só programo junto com IA.** Eu trago a ideia, guio a implementação e testo no meu dia a dia. Faço apps para jogar com os amigos e ferramentas que me poupam trabalho na edição.
+<img src="assets/binhoc.png" alt="Binhoc, @creachec. Software e audiovisual." width="100%">
 
-[Destaques](#projetos-em-destaque) · [Projetos públicos](#projetos-públicos) · [Tecnologias](#tecnologias)
+<p>Sou o Binhoc, editor de vídeo e “programador” vibecoder. <strong>Só programo junto com IA.</strong></p>
+<p>Faço apps para jogar com os amigos e ferramentas para o trabalho com vídeo.</p>
+<p><a href="#projetos"><strong>Ver projetos</strong></a> · <a href="#tecnologias">Tecnologias</a></p>
 
-## Projetos em destaque
+</div>
+
+## Projetos
 
 ### Friendo Voice
 
-**Uma sala para conversar, jogar e assistir à tela dos amigos.**
+Uma sala para conversar, jogar e assistir à tela dos amigos.
 
-[![Assistir ao vídeo principal do Friendo Voice](assets/friendo-voice.webp)](https://friendo.137-131-179-91.sslip.io/desktop2/video/principal-1080p.mp4)
+<p>
+  <a href="https://friendo.137-131-179-91.sslip.io/desktop2/video/principal-1080p.mp4">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/friendo-voice.webp">
+      <img src="assets/friendo-voice-previa.webp" alt="O mascote do Friendo Voice apresenta a sala de voz Turma de Sexta. Clique para assistir ao vídeo completo." width="100%">
+    </picture>
+  </a>
+</p>
 
-O Friendo reúne chat, voz, vídeo, transmissão de tela e perfis personalizáveis. No Windows, a captura roda no app nativo. No Android, dá para acompanhar o chat e entrar nas chamadas.
+Criei o Friendo para juntar minha turma em chamadas de voz e vídeo, com chat, compartilhamento de tela e perfis personalizáveis. Dá para transmitir pelo app de Windows e acompanhar as chamadas pelo Android.
 
-[Conheça o Friendo Voice](https://friendo.137-131-179-91.sslip.io/) · [Assistir ao vídeo principal](https://friendo.137-131-179-91.sslip.io/desktop2/video/principal-1080p.mp4) · [Detalhes técnicos](projetos/friendo-voice.md)
-
-**Web, Windows e Android** · TypeScript, Go, Java, WebView2 e LiveKit · Código privado
+[Conheça o Friendo Voice](https://friendo.137-131-179-91.sslip.io/) · [Vídeo completo](https://friendo.137-131-179-91.sslip.io/desktop2/video/principal-1080p.mp4) · [Detalhes técnicos](projetos/friendo-voice.md)<br>
+<sub>Web, Windows e Android · TypeScript, Go, Java e LiveKit · Código privado</sub>
 
 ### DuoScope
 
-**Um raio-X do jeito de jogar no League of Legends.**
+Um raio-X do jeito de jogar no League of Legends.
 
 [![Tela de busca por Riot ID no DuoScope](assets/duoscope.webp)](https://duoscope.duckdns.org/)
 
-A busca por Riot ID reúne histórico, campeões mais usados, desempenho por rota e comparações entre jogadores. Um companion para Windows acompanha a seleção de campeões. A demonstração usa dados simulados.
+Busque um Riot ID para ver histórico, campeões mais usados e desempenho por rota. O aplicativo complementar para Windows acompanha a seleção de campeões. O site abre em modo de demonstração, com dados simulados.
 
-[Abrir o site do DuoScope](https://duoscope.duckdns.org/) · [Detalhes técnicos](projetos/duoscope.md)
-
-**Web e Windows** · JavaScript, Node.js e Electron · Código privado
-
-## Projetos públicos
+[Abrir o site do DuoScope](https://duoscope.duckdns.org/) · [Detalhes técnicos](projetos/duoscope.md)<br>
+<sub>Web e Windows · JavaScript, Node.js e Electron · Código privado</sub>
 
 ### Aether Media
 
-[![Aether Media com uma galeria de arquivos de demonstração](assets/aether-media.webp)](https://github.com/creachec/aether-media)
+Uma galeria para encontrar replays e capturas espalhados pelo PC.
 
-Uma galeria local para encontrar, organizar e assistir replays e capturas. Ela indexa as pastas que eu escolho e agrupa os arquivos por jogo.
+[![Galeria do Aether Media com arquivos de demonstração](assets/aether-media.webp)](https://github.com/creachec/aether-media)
 
-[Código e instalação](https://github.com/creachec/aether-media) · Next.js, TypeScript e FFmpeg
+Escolha as pastas que quer indexar. A galeria agrupa os arquivos por jogo e abre imagens e vídeos no próprio navegador.
+
+[Código e instalação](https://github.com/creachec/aether-media)<br>
+<sub>Next.js, TypeScript e FFmpeg</sub>
 
 ### Conversor HDR
 
+De capturas JXR para AVIF HDR no próprio PC.
+
 [![Área de envio de arquivos JXR no Conversor HDR](assets/conversor-hdr.webp)](https://github.com/creachec/conversor-hdr)
 
-Converte capturas JXR em AVIF HDR no próprio computador. Aceita um lote e reúne os arquivos prontos num ZIP.
+Selecione um lote de capturas e baixe os arquivos convertidos individualmente ou em um ZIP.
 
-[Código e instalação](https://github.com/creachec/conversor-hdr) · Node.js e Express
+[Código e instalação](https://github.com/creachec/conversor-hdr)<br>
+<sub>Node.js e Express</sub>
 
 ### Mapa da Apuração
 
+A eleição presidencial de 2026, município por município.
+
 [![Mapa e placar da totalização presidencial de 2026](assets/mapa-apuracao.webp)](https://creachec.github.io/mapa-apuracao/)
 
-Explore o resultado final da eleição presidencial de 2026 por município e estado, com comparações com o primeiro turno e 2022.
+Explore o resultado final por município e estado e compare com o primeiro turno e com 2022. A visualização usa dados oficiais do TSE.
 
-[Abrir o mapa](https://creachec.github.io/mapa-apuracao/) · [Código](https://github.com/creachec/mapa-apuracao) · JavaScript, D3 e dados do TSE
+[Abrir o mapa](https://creachec.github.io/mapa-apuracao/) · [Código](https://github.com/creachec/mapa-apuracao)<br>
+<sub>JavaScript e D3</sub>
 
 ### Contagem do Fim da 6x1
 
+Um relógio para acompanhar a transição da jornada de trabalho.
+
 [![Relógio da transição da jornada e linha do tempo trabalhista](assets/fim-da-6x1.webp)](https://creachec.github.io/fim-da-6x1/)
 
-Contagem para as etapas de redução da jornada previstas na Emenda Constitucional 141, com uma linha do tempo dos direitos trabalhistas no Brasil.
+O contador acompanha as etapas previstas na Emenda Constitucional 141 e apresenta uma linha do tempo dos direitos trabalhistas no Brasil.
 
-[Abrir o site](https://creachec.github.io/fim-da-6x1/) · [Código](https://github.com/creachec/fim-da-6x1) · HTML, CSS e JavaScript
+[Abrir o site](https://creachec.github.io/fim-da-6x1/) · [Código](https://github.com/creachec/fim-da-6x1)<br>
+<sub>HTML, CSS e JavaScript</sub>
 
 ### SD Organizer
 
-Importa cartões de câmera, organiza arquivos por evento e prepara o envio ao Drive. A edição pública começa com um evento de exemplo que dá para personalizar.
+Do cartão da câmera à pasta do evento.
 
-[Código e instalação](https://github.com/creachec/sd-organizer) · Electron e rclone
+Importa as gravações, organiza arquivos por evento, dia e tipo de mídia e prepara o envio ao Drive. A edição pública começa com um evento de exemplo que você pode editar.
+
+[Código e instalação](https://github.com/creachec/sd-organizer)<br>
+<sub>Electron e rclone</sub>
 
 <details>
-<summary>Outros projetos</summary>
+<summary><strong>Mais projetos</strong></summary>
 
 - [Stremio Kai Timeworn](https://github.com/creachec/Stremio-Kai-Timeworn) · Adaptação comunitária do Stremio Kai para TVs LG com webOS 3.x.
-- [FIFA Squad Auction](https://github.com/creachec/fifa-squad-auction) · Leilão de jogadores para montar elencos, acompanhar lances e fechar os times.
+- [FIFA Squad Auction](https://github.com/creachec/fifa-squad-auction) · Leilão de jogadores para montar elencos com os amigos.
 - [Video Creation Hub](https://github.com/creachec/video-creation-hub) · Painel web para organizar a produção de vídeo.
 - **Friendo Remote** · Transmite a tela e o áudio do PC para uma TV LG pela rede local.
 - **Gaming Gallery Launcher** · Biblioteca de jogos de PC com navegação por controle.
@@ -83,7 +105,7 @@ Importa cartões de câmera, organiza arquivos por evento e prepara o envio ao D
 
 ## Tecnologias
 
-![Tecnologias dos projetos. Web: TypeScript, React e Node.js. Apps: Go, Electron e Java. Áudio e vídeo: LiveKit, FFmpeg e Python.](assets/tecnologias.webp)
+![Tecnologias dos projetos. Web com TypeScript, React e Node.js. Apps com Go, Electron e Java. Áudio e vídeo com LiveKit, FFmpeg e Python.](assets/tecnologias.webp)
 
 ---
 
